@@ -41,10 +41,10 @@ class EventDetailsSheetViewModel@Inject constructor(
 
     init {
         viewModelScope.launch {
-            val allowed = userAllowedNotifications()
-            notificationsAllowed = allowed
-            checkNotificationIsSetForEvent()
-            checkNotificationIsSetForCourse()
+//            val allowed = userAllowedNotifications()
+//            notificationsAllowed = allowed
+//            checkNotificationIsSetForEvent()
+//            checkNotificationIsSetForCourse()
         }
     }
 
